@@ -1,0 +1,25 @@
+    # nov red -> while el%9 != 0 and el % 8 != 0 -> el != od nashiot element
+    # nova kolona -> while el<9 != 0 and el < 80 and el > 72 -> el != od nashiot element
+    # nova kocka -> da go podelam na 9 kocki?
+
+    # fields = range(81)
+    #
+    # incr = []  # -> inkrement na field
+    #
+    # for i in range(1, 10): # zakluchno so 9 -> red
+    #         incr.append(i)
+    #
+    # incr.append(10)  # -> square
+    # incr.append(11)  # -> square
+    # incr.append(19)  # -> square
+    # incr.append(20)  # -> square
+    #
+    # for i in range(27, 73):  # -> kolona
+    #     if i % 9 == 0:
+    #         incr.append(i)
+    #
+    # diff = []  # site polinja koi moraat da bidat razlichni od field
+    # for field in fields:
+    #     for i in incr:
+    #         diff.append(field + i)
+    #     pass # site elementi od diff da se razlichni od field
